@@ -3,7 +3,7 @@ from datetime import date
 
 from telebot import types, TeleBot
 
-bot: TeleBot = telebot.TeleBot('6773401761:AAGX38wdkr56sgE86MStW5xBeObs_boxMxM')
+bot: TeleBot = telebot.TeleBot('TOKEN')
 
 
 @bot.message_handler(commands=['start'])
