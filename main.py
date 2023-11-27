@@ -5,6 +5,12 @@ from telebot import types, TeleBot
 
 bot: TeleBot = telebot.TeleBot('TOKEN')
 
+'''
+У меня в профиле ещё есть репозиторий hey-popey-tb-bot
+
+Там код для бота кофейни с бонусной системой в виде кружек https://github.com/newix1/hey-popey-tb-bot/blob/main/main.py
+'''
+
 
 @bot.message_handler(commands=['start'])
 def start(message):
